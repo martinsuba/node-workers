@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:fork": "ts-node fork/index.ts",
+    "start:worker-threads": "node --experimental-worker worker-threads/index.import.js"
   },
   "author": "",
   "license": "ISC",
